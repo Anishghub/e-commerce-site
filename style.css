@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 66px;
+    background-color: #243030;
+    color: white;
+    display: flex ;
+}
+.dev-logo{
+    height: 50px;
+    width: 50px;
+}
+.logo{
+    background-image: url("icons8-a-60.png");
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    align-items: center ;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:  2px solid white;
+}
+
+.add-first{
+   color: aliceblue;
+   font-size: 1rem;
+}
+.add-sec{
+   font-size: .8rem;
+   margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-address{
+    /* align-items: center; */
+     margin-top: 5px;
+    display: table-column;
+  margin-left: 14px;}
+
+
+  /* box3?
+   */
+
+
+   .nav-search{
+    display: flex;
+    margin-top: 10px ;
+    margin-bottom: 21px;
+    margin-left: 50px;
+   }
+
+   .hero-section{
+    background-image: url("Sofa.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+   }
+
+   /* shop::after   */
+    
+   .shop-section{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    background-color: rgb(178, 182, 181);
+   
+   }
+    .box{
+        height: 300px;
+        /* border: 1px solid rgb(70, 51, 51); */
+        width: 24%;
+        background-color: azure;
+        border-radius: 5%;
+        padding: 20px 0px 15px;
+        margin-top: 11px;
+    
+    }
+
+    .box-img{
+        height: 220px;
+        
+        background-size: cover;
+        
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      
+    }
+     .box-content{
+        margin-left: 14px;
+        margin-right: 15px ;
+    }
+     /* footer section */
+          footer{
+            margin-top: 16px;
+          }
+
+    .foot-panel1{
+       background-color: rgb(26, 19, 32); 
+       color: white;
+       height: 51px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 1rem;
+    }
+
+.foot-panel2{
+    background-color: #222f3d ;
+    color: white;
+    height: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+ul a {
+    display: block;
+    margin-top: 11px;
+    font-size: .8rem ;
+    color: #dddd;
+    
+}
+
+.foot-panel3{
+    background-color: #222f3d ;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    background-image: url("icons8-a-60.png");
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    align-items: center ;
+}
+.foot-panel4{
+background-color: rgb(26, 19, 32);
+color: beige;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+}
+
+
+.pages{
+  font-size: 0.8rem;
+  align-items: center;
+  padding: 25px;
+}
+
+.copyright{
+    font-size: 1rem;
+    align-items: center;
+}
